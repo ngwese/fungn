@@ -1,9 +1,9 @@
 {
 	"name" : "fungn",
 	"version" : 1,
-	"creationdate" : 3534793196,
-	"modificationdate" : 3534793234,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -760174100,
+	"modificationdate" : -760165462,
+	"viewrect" : [ 2.0, 49.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -37,6 +37,16 @@
 			}
 ,
 			"input-test.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"faccum.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"test-faccum.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

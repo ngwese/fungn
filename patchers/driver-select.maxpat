@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -39,11 +39,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 193.0, 323.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0, 240.0, 150.0, 20.0 ],
+					"patching_rect" : [ 346.474854, 56.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 229.324707, 2.0, 51.0, 20.0 ],
 					"style" : "",
@@ -59,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 225.0, 150.0, 20.0 ],
+					"patching_rect" : [ 90.474869, 43.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 43.0, 20.0 ],
 					"style" : "",
@@ -77,7 +89,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 315.474854, 93.0, 110.0, 22.0 ],
-					"restore" : [ "Symphony 64 | ThunderBridge" ],
+					"restore" : [ "Built-in Output" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -96,7 +108,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.474869, 100.0, 103.0, 22.0 ],
-					"restore" : [ "Symphony 64 | ThunderBridge" ],
+					"restore" : [ "Built-in Input" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -129,7 +141,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.0, 376.0, 284.0, 22.0 ],
 					"style" : "",
-					"text" : "\"Symphony 64 | ThunderBridge\""
+					"text" : "\"Built-in Input\""
 				}
 
 			}
@@ -146,7 +158,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -365,7 +377,7 @@
 					"applycolors" : 1,
 					"hint" : "",
 					"id" : "obj-4",
-					"items" : [ "Built-in Output", ",", "USBStreamer ", ",", "Symphony 64 | ThunderBridge", ",", "Symphony 64 | Streamer" ],
+					"items" : "Built-in Output",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -395,7 +407,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -426,6 +438,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -461,7 +474,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.0, 131.0, 110.0, 23.0 ],
+									"patching_rect" : [ 203.0, 129.0, 110.0, 23.0 ],
 									"style" : "",
 									"text" : "clear, menumode 2"
 								}
@@ -614,7 +627,7 @@
 					"applycolors" : 1,
 					"hint" : "",
 					"id" : "obj-1",
-					"items" : [ "USBStreamer ", ",", "Symphony 64 | ThunderBridge", ",", "Symphony 64 | Streamer" ],
+					"items" : [ "Built-in Microphone", ",", "Built-in Input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -652,6 +665,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -664,7 +686,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 355.974854, 266.803162, 335.782273, 266.803162, 335.782273, 151.346451, 355.974854, 151.346451 ],
+					"midpoints" : [ 355.974854, 266.803162, 335.782288, 266.803162, 335.782288, 151.346451, 355.974854, 151.346451 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

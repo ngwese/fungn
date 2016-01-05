@@ -2,7 +2,7 @@
 	"name" : "fungn",
 	"version" : 1,
 	"creationdate" : -760174100,
-	"modificationdate" : -760165462,
+	"modificationdate" : -760160027,
 	"viewrect" : [ 2.0, 49.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,17 +26,12 @@
 				"local" : 1
 			}
 ,
-			"polled-audio-input.maxpat" : 			{
+			"cv-in.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"input-select.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"input-test.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -47,6 +42,11 @@
 			}
 ,
 			"test-faccum.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"test-cv-in.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 62.0, 622.0, 640.0, 480.0 ],
+		"rect" : [ 317.0, 334.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,9 +70,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 123.0, 106.0, 22.0 ],
+					"patching_rect" : [ 340.0, 123.0, 170.0, 22.0 ],
 					"style" : "",
-					"text" : "polled-audio-input",
+					"text" : "cv-in @input 3 @out 0. 10.",
 					"varname" : "cv-in-B"
 				}
 
@@ -100,14 +100,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 455.0, 356.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1165, 582, 1830, 944 ],
+						"client_rect" : [ 65, 628, 730, 990 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u584010442"
+					"varname" : "u640004693"
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.0, 123.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "polled-audio-input",
+					"text" : "cv-in",
 					"varname" : "cv-in-A"
 				}
 
@@ -186,8 +186,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "polled-audio-input.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/arc-tan/patchers",
+				"name" : "cv-in.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/fungn/patchers",
+				"patcherrelativepath" : "../Projects/fungn/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

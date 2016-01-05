@@ -39,6 +39,139 @@
 		"subpatcher_template" : "Carbon_template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 14.0,
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 494.0, 15.0, 170.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 610.5, 15.0, 55.0, 22.0 ],
+					"style" : "",
+					"suppressinlet" : 1,
+					"text" : "fungn",
+					"textcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+					"activebgoncolor" : [ 0.572549, 0.27451, 0.027451, 0.2 ],
+					"activetextcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"activetextoncolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+					"bgoncolor" : [ 0.741176, 0.356863, 0.047059, 0.0 ],
+					"bordercolor" : [ 0.196078, 0.196078, 0.196078, 0.0 ],
+					"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
+					"fontface" : 0,
+					"id" : "obj-17",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 372.5, 222.0, 40.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 620.5, 274.0, 45.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.text[2]",
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2,
+							"parameter_mmax" : 1.0,
+							"parameter_enum" : [ "val1", "val2" ]
+						}
+
+					}
+,
+					"text" : "±",
+					"textcolor" : [ 0.321569, 0.321569, 0.321569, 0.0 ],
+					"texton" : "±",
+					"varname" : "live.text[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+					"activebgoncolor" : [ 0.572549, 0.27451, 0.027451, 0.2 ],
+					"activetextcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"activetextoncolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+					"bgoncolor" : [ 0.741176, 0.356863, 0.047059, 0.0 ],
+					"bordercolor" : [ 0.196078, 0.196078, 0.196078, 0.0 ],
+					"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
+					"fontface" : 0,
+					"id" : "obj-40",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 357.5, 207.0, 40.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 620.5, 65.0, 45.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.text[3]",
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2,
+							"parameter_mmax" : 1.0,
+							"parameter_enum" : [ "val1", "val2" ]
+						}
+
+					}
+,
+					"text" : "±",
+					"textcolor" : [ 0.321569, 0.321569, 0.321569, 0.0 ],
+					"texton" : "±",
+					"varname" : "live.text[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+					"activebgoncolor" : [ 0.572549, 0.27451, 0.027451, 0.2 ],
+					"activetextcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"activetextoncolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+					"bgoncolor" : [ 0.741176, 0.356863, 0.047059, 0.0 ],
+					"bordercolor" : [ 0.196078, 0.196078, 0.196078, 0.0 ],
+					"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
+					"fontface" : 0,
+					"id" : "obj-13",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 357.5, 207.0, 40.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 288.5, 274.0, 45.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.text[1]",
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2,
+							"parameter_mmax" : 1.0,
+							"parameter_enum" : [ "val1", "val2" ]
+						}
+
+					}
+,
+					"text" : "±",
+					"textcolor" : [ 0.321569, 0.321569, 0.321569, 0.0 ],
+					"texton" : "±",
+					"varname" : "live.text[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-19",
 					"maxclass" : "flonum",
@@ -112,7 +245,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 342.5, 192.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.5, 65.0, 45.0, 20.0 ],
+					"presentation_rect" : [ 288.5, 65.0, 45.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text",
@@ -301,7 +434,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 916.5, 432.0, 242.0, 22.0 ],
 					"style" : "",
-					"text" : "polled-audio-input @input 2 @interval 2000",
+					"text" : "cv-in @input 2 @interval 2000",
 					"varname" : "preset-cv"
 				}
 
@@ -385,7 +518,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 764.0, 97.0, 228.0, 22.0 ],
 					"style" : "",
-					"text" : "polled-audio-input @input 1 @interval 50",
+					"text" : "cv-in @input 1 @interval 50",
 					"varname" : "function-cv"
 				}
 
@@ -597,7 +730,7 @@
 ,
 					"style" : "default",
 					"text" : "pattrstorage",
-					"varname" : "u181003630"
+					"varname" : "u854004039"
 				}
 
 			}
@@ -613,12 +746,15 @@
 					"restore" : 					{
 						"function-cv-enable" : [ 1 ],
 						"live.text" : [ 1.0 ],
+						"live.text[1]" : [ 1.0 ],
+						"live.text[2]" : [ 1.0 ],
+						"live.text[3]" : [ 1.0 ],
 						"preset-cv-enable" : [ 0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u014003712"
+					"varname" : "u490004106"
 				}
 
 			}
@@ -1625,8 +1761,11 @@
  ],
 		"parameters" : 		{
 			"obj-8" : [ "live.text", "live.text", 0 ],
+			"obj-13" : [ "live.text[1]", "live.text", 0 ],
+			"obj-40" : [ "live.text[3]", "live.text", 0 ],
 			"obj-30::obj-2" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-30::obj-1" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-17" : [ "live.text[2]", "live.text", 0 ],
 			"obj-14::obj-2" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-14::obj-1" : [ "live.tab", "live.tab", 0 ],
 			"obj-30::obj-19" : [ "live.tab[4]", "live.tab", 0 ],
@@ -1652,7 +1791,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "polled-audio-input.maxpat",
+				"name" : "cv-in.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/fungn/patchers",
 				"type" : "JSON",
 				"implicit" : 1

@@ -39,6 +39,37 @@
 		"subpatcher_template" : "Carbon_template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 691.0, 19.0, 69.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"audiosupport" : 1,
+						"bundleidentifier" : "com.afofo.fungn",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 1,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 0,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 1,
+						"preffilename" : "fungn Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"style" : "",
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
@@ -921,7 +952,7 @@
 ,
 					"style" : "default",
 					"text" : "pattrstorage",
-					"varname" : "u921006400"
+					"varname" : "u344000921"
 				}
 
 			}
@@ -940,7 +971,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u328012917"
+					"varname" : "u418001022"
 				}
 
 			}
@@ -1547,30 +1578,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-8" : [ "live.text", "live.text", 0 ],
 			"obj-62::obj-1::obj-2" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-8::obj-19" : [ "live.tab[16]", "live.tab", 0 ],
-			"obj-6::obj-1::obj-8" : [ "live.text[9]", "live.text", 0 ],
-			"obj-6::obj-1::obj-2" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-63::obj-1::obj-2" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-62::obj-8" : [ "live.text[5]", "live.text", 0 ],
-			"obj-4::obj-2" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-63::obj-1::obj-8" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-19" : [ "live.tab[12]", "live.tab", 0 ],
-			"obj-14::obj-1" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-8::obj-1" : [ "live.tab[18]", "live.tab", 0 ],
-			"obj-14::obj-2" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-30::obj-1" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-3::obj-1::obj-2" : [ "live.tab[11]", "live.tab", 0 ],
 			"obj-3::obj-1::obj-8" : [ "live.text[7]", "live.text", 0 ],
-			"obj-4::obj-1" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-8::obj-1" : [ "live.tab[18]", "live.tab", 0 ],
 			"obj-6::obj-8" : [ "live.text[8]", "live.text", 0 ],
-			"obj-63::obj-8" : [ "live.text[4]", "live.text", 0 ],
-			"obj-30::obj-2" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-30::obj-19" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-14::obj-19" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-3::obj-1::obj-2" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-62::obj-8" : [ "live.text[5]", "live.text", 0 ],
+			"obj-3::obj-8" : [ "live.text", "live.text", 0 ],
+			"obj-8::obj-19" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-14::obj-2" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-14::obj-1" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-4::obj-19" : [ "live.tab[12]", "live.tab", 0 ],
 			"obj-8::obj-2" : [ "live.tab[17]", "live.tab", 0 ],
-			"obj-62::obj-1::obj-8" : [ "live.text[6]", "live.text", 0 ]
+			"obj-63::obj-1::obj-8" : [ "live.text[1]", "live.text", 0 ],
+			"obj-14::obj-19" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-30::obj-19" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-62::obj-1::obj-8" : [ "live.text[6]", "live.text", 0 ],
+			"obj-4::obj-1" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-63::obj-1::obj-2" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-6::obj-1::obj-8" : [ "live.text[9]", "live.text", 0 ],
+			"obj-30::obj-2" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-30::obj-1" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-4::obj-2" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-63::obj-8" : [ "live.text[4]", "live.text", 0 ],
+			"obj-6::obj-1::obj-2" : [ "live.tab[15]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1637,7 +1668,19 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "carbon",
+				"newobj" : 				{
+					"fontname" : [ "Arial" ],
+					"accentcolor" : [ 0.729412, 0.776471, 0.627451, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ]
+				}
+,
 				"default" : 				{
+					"fontname" : [ "Arial" ],
+					"accentcolor" : [ 0.842576, 0.838512, 0.713262, 1.0 ],
+					"elementcolor" : [ 0.899271, 0.919012, 0.871345, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"color" : [ 0.530102, 0.602338, 0.400163, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
@@ -1650,19 +1693,7 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ],
-					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.842576, 0.838512, 0.713262, 1.0 ],
-					"elementcolor" : [ 0.899271, 0.919012, 0.871345, 1.0 ],
-					"fontsize" : [ 12.0 ]
-				}
-,
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ],
-					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 0.729412, 0.776471, 0.627451, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

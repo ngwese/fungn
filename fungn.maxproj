@@ -2,8 +2,8 @@
 	"name" : "fungn",
 	"version" : 1,
 	"creationdate" : -760174100,
-	"modificationdate" : -760141754,
-	"viewrect" : [ 2.0, 49.0, 300.0, 500.0 ],
+	"modificationdate" : -760091658,
+	"viewrect" : [ 2.0, 49.0, 300.0, 624.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -12,10 +12,11 @@
 		"patchers" : 		{
 			"fungn.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
-			"faccum.maxpat" : 			{
+			"breakpoint.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -25,18 +26,17 @@
 				"local" : 1
 			}
 ,
-			"breakpoint.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
-			"cv-out.maxpat" : 			{
+			"input-select.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"input-select.maxpat" : 			{
+			"driver-select.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cv-out.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,7 +46,12 @@
 				"local" : 1
 			}
 ,
-			"driver-select.maxpat" : 			{
+			"arc-in.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"faccum.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -70,11 +75,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"arc-in.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -92,7 +92,7 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,

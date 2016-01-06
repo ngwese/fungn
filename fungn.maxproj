@@ -2,7 +2,7 @@
 	"name" : "fungn",
 	"version" : 1,
 	"creationdate" : -760174100,
-	"modificationdate" : -760144357,
+	"modificationdate" : -760141754,
 	"viewrect" : [ 2.0, 49.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -67,6 +67,11 @@
 			}
 ,
 			"source.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"arc-in.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

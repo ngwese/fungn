@@ -26,11 +26,11 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
-		"enablevscroll" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
 		"devicewidth" : 1346.0,
 		"description" : "",
 		"digest" : "",
@@ -571,9 +571,9 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 806.5, 219.0, 7.5 ],
+					"patching_rect" : [ 22.0, 841.5, 219.0, 7.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 393.5, 654.0, 7.0 ]
+					"presentation_rect" : [ 15.0, 392.5, 654.0, 7.0 ]
 				}
 
 			}
@@ -591,9 +591,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 22.0, 851.0, 469.5, 25.0 ],
+					"patching_rect" : [ 22.0, 886.0, 469.5, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 402.5, 469.5, 29.0 ],
+					"presentation_rect" : [ 15.0, 401.5, 469.5, 29.0 ],
 					"varname" : "driver-select",
 					"viewvisibility" : 1
 				}
@@ -921,7 +921,7 @@
 ,
 					"style" : "default",
 					"text" : "pattrstorage",
-					"varname" : "u801002637"
+					"varname" : "u921006400"
 				}
 
 			}
@@ -940,7 +940,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u065002744"
+					"varname" : "u328012917"
 				}
 
 			}
@@ -1405,7 +1405,7 @@
 					"hidden" : 0,
 					"source" : [ "obj-64", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 25
+					"watchpoint_id" : 44
 				}
 
 			}
@@ -1561,13 +1561,13 @@
 			"obj-8::obj-1" : [ "live.tab[18]", "live.tab", 0 ],
 			"obj-14::obj-2" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-30::obj-1" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-3::obj-1::obj-8" : [ "live.text[7]", "live.text", 0 ],
 			"obj-3::obj-1::obj-2" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-3::obj-1::obj-8" : [ "live.text[7]", "live.text", 0 ],
 			"obj-4::obj-1" : [ "live.tab[14]", "live.tab", 0 ],
 			"obj-6::obj-8" : [ "live.text[8]", "live.text", 0 ],
 			"obj-63::obj-8" : [ "live.text[4]", "live.text", 0 ],
-			"obj-30::obj-19" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-30::obj-2" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-30::obj-19" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-14::obj-19" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-8::obj-2" : [ "live.tab[17]", "live.tab", 0 ],
 			"obj-62::obj-1::obj-8" : [ "live.text[6]", "live.text", 0 ]

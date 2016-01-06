@@ -2,7 +2,7 @@
 	"name" : "fungn",
 	"version" : 1,
 	"creationdate" : -760174100,
-	"modificationdate" : -760091658,
+	"modificationdate" : -760028162,
 	"viewrect" : [ 2.0, 49.0, 300.0, 624.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -27,6 +27,11 @@
 			}
 ,
 			"input-select.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"input-range.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -72,6 +77,11 @@
 			}
 ,
 			"source.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"about.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

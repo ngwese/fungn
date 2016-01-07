@@ -1,4 +1,4 @@
-# fungen
+# fungn
 
 quad cv function generator
 

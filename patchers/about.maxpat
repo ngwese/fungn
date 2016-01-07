@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 455.0, 340.0, 430.0, 550.0 ],
+		"rect" : [ 455.0, 340.0, 307.0, 400.0 ],
 		"openrect" : [ 0.0, 0.0, 307.0, 400.0 ],
 		"bgcolor" : [ 0.105288, 0.105285, 0.105286, 1.0 ],
 		"bglocked" : 0,
@@ -40,6 +40,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-1",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 185.0, 361.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
@@ -61,10 +74,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 79.5, 294.0, 234.0 ],
+					"patching_rect" : [ 7.0, 79.5, 296.0, 234.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 17,
-					"presentation_rect" : [ 7.0, 79.5, 294.0, 234.0 ],
+					"presentation_rect" : [ 7.0, 79.5, 296.0, 234.0 ],
 					"style" : "",
 					"text" : "quad cv function generator\n\noutput of each function is displayed on corresponding arc ring\n\nchoose arc or cv as the input for a function, select the encoder or channel as desired. functions can share inputs\n\nchoose a cv channel for output. deselecting cv mutes the function output and holds the last value.\n\nenabling ± on a cv input maps bipolar cv to unipolar function input\n\nenabling ± on a cv output maps unipolar function output to bipolar cv output",
 					"textcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ]
@@ -120,7 +133,11 @@
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 

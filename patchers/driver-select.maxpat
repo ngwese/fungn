@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -63,7 +63,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -260,7 +260,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -684,7 +684,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 315.474854, 93.0, 110.0, 22.0 ],
-					"restore" : [ "Built-in Output" ],
+					"restore" : [ "USBStreamer " ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -703,7 +703,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.474869, 100.0, 103.0, 22.0 ],
-					"restore" : [ "Symphony 64 | ThunderBridge" ],
+					"restore" : [ "USBStreamer " ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -734,9 +734,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.0, 376.0, 284.0, 22.0 ],
+					"patching_rect" : [ 204.0, 360.0, 284.0, 22.0 ],
 					"style" : "",
-					"text" : "\"Symphony 64 | ThunderBridge\""
+					"text" : "\"USBStreamer \""
 				}
 
 			}
@@ -753,7 +753,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1002,7 +1002,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1433,17 +1433,60 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "adstatus.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pattr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ubutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "js.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "dspstate~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "arc-tan-menu",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
 					"textcolor_inverse" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
-					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1454,7 +1497,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 11.0 ]
+					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ]
 				}
 ,
 				"parentstyle" : "default",

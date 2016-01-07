@@ -1,10 +1,10 @@
 {
 	"name" : "fungn",
 	"version" : 1,
-	"creationdate" : -760174100,
-	"modificationdate" : -760028162,
+	"creationdate" : -760174221,
+	"modificationdate" : 3534970760,
 	"viewrect" : [ 2.0, 49.0, 300.0, 624.0 ],
-	"autoorganize" : 1,
+	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
@@ -31,11 +31,6 @@
 				"local" : 1
 			}
 ,
-			"input-range.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"driver-select.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -57,6 +52,11 @@
 			}
 ,
 			"faccum.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"input-range.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -89,6 +89,10 @@
 		}
 ,
 		"code" : 		{
+
+		}
+,
+		"externals" : 		{
 
 		}
 

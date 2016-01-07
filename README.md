@@ -4,7 +4,7 @@ quad cv function generator
 
 a simple utility inspired by many prior works in hardware and software
 
-![](other/screen-shot.png)
+![](media/screen-shot.png)
 
 ## notes
 

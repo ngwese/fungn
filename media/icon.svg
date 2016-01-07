@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="33.1796974%" cy="1.16621028%" fx="33.1796974%" fy="1.16621028%" r="105.703826%" id="radialGradient-1">
+            <stop stop-color="#AB5C03" stop-opacity="0.626528533" offset="0%"></stop>
+            <stop stop-color="#6E400D" stop-opacity="0.902230525" offset="52.8101084%"></stop>
+            <stop stop-color="#1B1B1B" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.733333333   0 0 0 0 0.360784314   0 0 0 0 0.0117647059  0 0 0 0.260657269 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-3" d="M0.237537223,422.187392 C0.237537223,422.187392 213.531978,352.68624 271.111346,285.183067 C328.690714,217.679894 317.244541,115.212075 374.606054,65.8905179 C431.967566,16.5689606 538.723714,0 538.723714,0"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.733333333   0 0 0 0 0.360784314   0 0 0 0 0.0117647059  0 0 0 0.260657269 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-5" d="M84.4473199,527.813691 C84.4473199,527.813691 297.74176,458.312538 355.321129,390.809365 C412.900497,323.306192 401.454324,220.838374 458.815837,171.516817 C516.177349,122.195259 622.933497,105.626299 622.933497,105.626299"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.733333333   0 0 0 0 0.360784314   0 0 0 0 0.0117647059  0 0 0 0.260657269 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-7" d="M164.735243,633.066705 C164.735243,633.066705 378.029684,563.565552 435.609052,496.062379 C493.18842,428.559206 481.742247,326.091387 539.10376,276.76983 C596.465272,227.448273 703.22142,210.879312 703.22142,210.879312"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.733333333   0 0 0 0 0.360784314   0 0 0 0 0.0117647059  0 0 0 0.260657269 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-9" d="M243.250927,737.508353 C243.250927,737.508353 456.545367,668.0072 514.124735,600.504027 C571.704104,533.000854 560.257931,430.533035 617.619443,381.211478 C674.980956,331.889921 781.737104,315.32096 781.737104,315.32096"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon" sketch:type="MSArtboardGroup">
+            <g id="all" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+                <rect id="background" stroke="#979797" fill="#1B1B1B" sketch:type="MSShapeGroup" x="0" y="0" width="1020" height="1020" rx="26"></rect>
+                <rect id="bg-ornimentation" stroke="#BB5C03" stroke-width="30" fill-opacity="0.25" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup" x="0" y="0" width="1020" height="1020" rx="26"></rect>
+                <g id="curves" transform="translate(119.091892, 141.145946)">
+                    <g id="Path-3" filter="url(#filter-2)">
+                        <use stroke="#BB5C03" stroke-width="40" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                        <use stroke="none" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Path-3-Copy" filter="url(#filter-4)">
+                        <use stroke="#BB5C03" stroke-width="40" sketch:type="MSShapeGroup" xlink:href="#path-5"></use>
+                        <use stroke="none" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Path-3-Copy-3" filter="url(#filter-6)">
+                        <use stroke="#BB5C03" stroke-width="40" sketch:type="MSShapeGroup" xlink:href="#path-7"></use>
+                        <use stroke="none" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="Path-3-Copy-2" filter="url(#filter-8)">
+                        <use stroke="#BB5C03" stroke-width="40" sketch:type="MSShapeGroup" xlink:href="#path-9"></use>
+                        <use stroke="none" xlink:href="#path-9"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -20,3 +20,10 @@ enabling ± on a cv input maps bipolar cv to unipolar function input
 
 enabling ± on a cv output maps unipolar function output to bipolar cv
 output
+
+ten presets of all four function curves can be saved and loaded. morph
+interpolates between presets either manually via the dial or via
+unipolar cv input
+
+the left and right ƒ controls define the cv input polling interval for
+the function inputs and morph input respectively

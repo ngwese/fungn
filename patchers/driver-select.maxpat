@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -63,7 +63,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -260,7 +260,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -646,15 +646,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.474854, 56.0, 150.0, 20.0 ],
+					"patching_rect" : [ 346.474854, 56.0, 167.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.324707, 4.872332, 51.0, 20.0 ],
+					"presentation_rect" : [ 266.324707, 4.872332, 48.0, 20.0 ],
 					"style" : "",
-					"text" : "output:",
+					"text" : "output",
 					"textcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
 					"textjustification" : 2
 				}
@@ -662,15 +663,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.474869, 43.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 4.872332, 43.0, 20.0 ],
+					"presentation_rect" : [ 37.0, 4.872332, 43.0, 20.0 ],
 					"style" : "",
-					"text" : "input:",
+					"text" : "input",
 					"textcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
 					"textjustification" : 2
 				}
@@ -753,7 +755,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1002,7 +1004,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1433,60 +1435,17 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "interfacecolor.js",
+				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "adstatus.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pattr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ubutton.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "js.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pak.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dspstate~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "arc-tan-menu",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"textcolor_inverse" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],

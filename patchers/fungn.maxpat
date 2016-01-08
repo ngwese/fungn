@@ -846,7 +846,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 65.0, 47.0, 291.0, 20.0 ],
 									"style" : "",
-									"text" : "version: 0.1",
+									"text" : "version: 0.2",
 									"textcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
 									"textjustification" : 2
 								}
@@ -896,7 +896,17 @@
  ],
 						"styles" : [ 							{
 								"name" : "carbon",
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"accentcolor" : [ 0.729412, 0.776471, 0.627451, 1.0 ],
+									"fontsize" : [ 12.0 ]
+								}
+,
 								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"color" : [ 0.530102, 0.602338, 0.400163, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -907,21 +917,11 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"color" : [ 0.530102, 0.602338, 0.400163, 1.0 ],
-									"accentcolor" : [ 0.842576, 0.838512, 0.713262, 1.0 ],
 									"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ],
-									"elementcolor" : [ 0.899271, 0.919012, 0.871345, 1.0 ]
-								}
-,
-								"newobj" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"accentcolor" : [ 0.729412, 0.776471, 0.627451, 1.0 ],
-									"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ]
+									"accentcolor" : [ 0.842576, 0.838512, 0.713262, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"elementcolor" : [ 0.899271, 0.919012, 0.871345, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2110,7 +2110,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u964006052"
+					"varname" : "u048001117"
 				}
 
 			}
@@ -3327,38 +3327,38 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17::obj-14" : [ "live.text[22]", "live.text", 0 ],
+			"obj-4::obj-19" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-45" : [ "live.text[26]", "live.text[24]", 0 ],
+			"obj-8::obj-2" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-6::obj-8" : [ "live.text", "live.text", 0 ],
 			"obj-20::obj-14" : [ "live.text[21]", "live.text", 0 ],
-			"obj-124" : [ "live.text[25]", "live.text[24]", 0 ],
-			"obj-8::obj-19" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-14::obj-1" : [ "live.tab[24]", "live.tab", 0 ],
+			"obj-30::obj-1" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-8::obj-1" : [ "live.tab[9]", "live.tab", 0 ],
 			"obj-6::obj-1::obj-8" : [ "live.text[1]", "live.text", 0 ],
-			"obj-3::obj-1::obj-8" : [ "live.text[15]", "live.text", 0 ],
 			"obj-62::obj-1::obj-2" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-123" : [ "live.text[24]", "live.text[24]", 0 ],
 			"obj-63::obj-8" : [ "live.text[16]", "live.text", 0 ],
-			"obj-30::obj-1" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-4::obj-19" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-3::obj-1::obj-2" : [ "live.tab[22]", "live.tab", 0 ],
+			"obj-36" : [ "live.text[23]", "live.text[23]", 0 ],
+			"obj-14::obj-19" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-30::obj-19" : [ "live.tab[13]", "live.tab", 0 ],
 			"obj-62::obj-1::obj-8" : [ "live.text[19]", "live.text", 0 ],
 			"obj-63::obj-1::obj-2" : [ "live.tab[23]", "live.tab", 0 ],
-			"obj-23::obj-14" : [ "live.text[20]", "live.text", 0 ],
-			"obj-30::obj-19" : [ "live.tab[13]", "live.tab", 0 ],
 			"obj-4::obj-1" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-23::obj-14" : [ "live.text[20]", "live.text", 0 ],
+			"obj-124" : [ "live.text[25]", "live.text[24]", 0 ],
 			"obj-25::obj-14" : [ "live.text[2]", "live.text", 0 ],
+			"obj-62::obj-8" : [ "live.text[18]", "live.text", 0 ],
+			"obj-4::obj-2" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-14::obj-2" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-8::obj-19" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-3::obj-8" : [ "live.text[14]", "live.text", 0 ],
 			"obj-6::obj-1::obj-2" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-62::obj-8" : [ "live.text[18]", "live.text", 0 ],
-			"obj-14::obj-2" : [ "live.tab[17]", "live.tab", 0 ],
-			"obj-8::obj-2" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-14::obj-19" : [ "live.tab[16]", "live.tab", 0 ],
-			"obj-8::obj-1" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-6::obj-8" : [ "live.text", "live.text", 0 ],
-			"obj-3::obj-1::obj-2" : [ "live.tab[22]", "live.tab", 0 ],
-			"obj-17::obj-14" : [ "live.text[22]", "live.text", 0 ],
-			"obj-63::obj-1::obj-8" : [ "live.text[17]", "live.text", 0 ],
-			"obj-45" : [ "live.text[26]", "live.text[24]", 0 ],
+			"obj-14::obj-1" : [ "live.tab[24]", "live.tab", 0 ],
 			"obj-30::obj-2" : [ "live.tab[14]", "live.tab", 0 ],
-			"obj-4::obj-2" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-36" : [ "live.text[23]", "live.text[23]", 0 ]
+			"obj-63::obj-1::obj-8" : [ "live.text[17]", "live.text", 0 ],
+			"obj-3::obj-1::obj-8" : [ "live.text[15]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3381,7 +3381,7 @@
 			}
 , 			{
 				"name" : "functions.json",
-				"bootpath" : "~/Documents/Max 7/Projects/fungn",
+				"bootpath" : "~/Documents/Max 7/Projects/fungn/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3449,7 +3449,17 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "carbon",
+				"newobj" : 				{
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"accentcolor" : [ 0.729412, 0.776471, 0.627451, 1.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
 				"default" : 				{
+					"fontname" : [ "Arial" ],
+					"color" : [ 0.530102, 0.602338, 0.400163, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3460,21 +3470,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"color" : [ 0.530102, 0.602338, 0.400163, 1.0 ],
-					"accentcolor" : [ 0.842576, 0.838512, 0.713262, 1.0 ],
 					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ],
-					"elementcolor" : [ 0.899271, 0.919012, 0.871345, 1.0 ]
-				}
-,
-				"newobj" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"accentcolor" : [ 0.729412, 0.776471, 0.627451, 1.0 ],
-					"bgcolor" : [ 0.937317, 0.937289, 0.937305, 1.0 ]
+					"accentcolor" : [ 0.842576, 0.838512, 0.713262, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"elementcolor" : [ 0.899271, 0.919012, 0.871345, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3483,8 +3483,8 @@
 , 			{
 				"name" : "fungn-number",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ]
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"textcolor_inverse" : [ 0.741176, 0.356863, 0.047059, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3513,8 +3513,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
